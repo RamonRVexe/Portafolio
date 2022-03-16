@@ -54,3 +54,28 @@ body{
           border-right-color: transparent;
     }
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.laravel{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+}
+.angular{
+    height: 70px;
+    width: 200px;
+    margin: 10px;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
