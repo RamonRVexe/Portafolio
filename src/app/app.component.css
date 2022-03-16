@@ -1,0 +1,56 @@
+body{
+    background-color: #142230;
+}
+.header {
+    background: url(https://i.pinimg.com/originals/b5/fd/3f/b5fd3fbe984103e08b9482471484394b.gif) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .header .navbar{
+      background-color: transparent !important;
+  }
+
+  .line {
+    position: relative;
+    top: 50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-50%);
+}
+.name{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title{
+    margin-top: 250px;
+}
+
+/*Animation*/
+.anim-typewriter {
+    animation: typewriter 4s steps(20) 1s 1 normal both,
+    blinkTextCursor 500ms steps(20) infinite normal;
+}
+@keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 7em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}
