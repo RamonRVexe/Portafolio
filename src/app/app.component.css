@@ -9,6 +9,7 @@ body{
 
   .header .navbar{
       background-color: transparent !important;
+      backdrop-filter: blur(100px) !important;
   }
 
   .line {
@@ -78,4 +79,5 @@ body{
     width: 100px;
     margin: 10px;
 }
+
 
